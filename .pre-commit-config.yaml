@@ -6,7 +6,7 @@ repos:
       - id: remove-tabs
 
   - repo: git://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v3.1.0
     hooks:
       - id: trailing-whitespace
       - id: check-merge-conflict
@@ -22,7 +22,7 @@ repos:
         args: ['--line-length', '110']
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.9.2
+    rev: 5.6.1
     hooks:
       - id: isort
         args:
